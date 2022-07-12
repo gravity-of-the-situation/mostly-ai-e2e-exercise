@@ -1,0 +1,10 @@
+{
+  "tester": {
+    "firstName": "Tester",
+    "lastName": "McTester",
+    "email": "tester@testers.io",
+    "mobilePhone": "+358401234567",
+    "company": "Testers Inc.",
+    "message": "Please help me test this app"
+  }
+}

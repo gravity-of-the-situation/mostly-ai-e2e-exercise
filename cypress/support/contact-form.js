@@ -1,0 +1,15 @@
+// Fills in the contact form
+Cypress.Commands.add('fillInContactForm', (userDetails) => {
+  cy.get('[id^="firstname"]')
+    .type(userDetails.firstName)
+  cy.get('[id^="lastname"]')
+    .type(userDetails.lastName)
+  cy.get('[id^="email"]')
+    .type(userDetails.email)
+  cy.get('[id^="mobilephone"]')
+    .type(userDetails.mobilePhone)
+  cy.get('[id^="company"]')
+    .type(userDetails.company)
+  cy.get('[id^="message"]')
+    .type(userDetails.message)
+})
